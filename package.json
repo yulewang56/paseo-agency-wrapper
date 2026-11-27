@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
+  "license": "MIT",
   "description": "Run Agency-managed GitHub Copilot in Paseo with host-scoped launch settings.",
   "repository": {
     "type": "git",

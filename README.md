@@ -24,4 +24,4 @@ Agency may download its managed CLI and load configured plugins, MCP servers, an
 
 For troubleshooting, run `paseo provider diagnostic agency-copilot` or `paseo plugin logs agency-wrapper`.
 
-This is an unofficial plugin. Agency and GitHub branding belong to their respective owners.
+The plugin code is [MIT licensed](LICENSE). Agency and GitHub branding belong to their respective owners and are not covered by this license. This is an unofficial plugin.
