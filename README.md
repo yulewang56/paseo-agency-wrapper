@@ -26,6 +26,8 @@ For troubleshooting, run `paseo provider diagnostic agency-copilot` or `paseo pl
 
 ## License and assets
 
-The plugin code, documentation, and original icons ([settings SVG](client/wrapper.svg), [provider SVG](assets/provider.svg), and [PNG](assets/icon.png)) are licensed under [Apache-2.0](LICENSE).
+The plugin code, documentation, and original line-art icons are licensed under [Apache-2.0](LICENSE).
 
-Agency, GitHub Copilot, and Paseo are named only to identify compatible products. This unofficial plugin does not bundle their logos or grant rights to their trademarks.
+The Microsoft Agency logo, including its original color artwork and grayscale adaptations, is not bundled or covered by this project's license. Its use is subject to Microsoft's [brand guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks).
+
+Agency, GitHub Copilot, and Paseo are named only to identify compatible products. This unofficial plugin grants no rights to those trademarks.
