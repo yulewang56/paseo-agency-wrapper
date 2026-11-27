@@ -1,0 +1,25 @@
+{
+  "name": "paseo-agency-wrapper",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Run Agency-managed GitHub Copilot in Paseo with host-scoped launch settings.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yulewang56/paseo-agency-wrapper.git"
+  },
+  "files": ["paseo-plugin.json", "OVERVIEW.md", "README.md", "assets/", "index.server.ts", "index.client.tsx", "server/", "shared/", "client/"],
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "node --experimental-strip-types --test server/*.test.ts shared/*.test.ts"
+  },
+  "devDependencies": {
+    "@getpaseo/plugin": "0.17.0-beta.1",
+    "@types/node": "^24.0.0",
+    "@types/react": "~19.2.0",
+    "react": "19.1.0",
+    "react-native": "0.81.5",
+    "typescript": "^5.9.3",
+    "zod": "4.4.3"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "id": "agency-wrapper",
+  "name": "Agency Wrapper",
+  "description": "Agency-managed Copilot with profile and MCP settings.",
+  "icon": "assets/icon.png",
+  "requirements": { "paseo": ">=0.17.4 <0.18.0" }
+}
