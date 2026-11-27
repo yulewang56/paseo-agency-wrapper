@@ -6,7 +6,7 @@ Adds **Agency Copilot** as a separate provider. It runs `agency copilot --acp` w
 
 ## Install
 
-Requires Paseo `>=0.17.4 <0.18.0` and an authenticated [Agency CLI](https://aka.ms/agency) on the Paseo host. Validated on macOS.
+Requires Paseo `>=0.17.4` and an authenticated [Agency CLI](https://aka.ms/agency) on the Paseo host. Validated on macOS.
 
 ```sh
 paseo plugin install git:yulewang56/paseo-agency-wrapper
