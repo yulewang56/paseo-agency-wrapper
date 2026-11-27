@@ -1,6 +1,6 @@
 # Agency Copilot
 
-Run Agency-managed GitHub Copilot inside Paseo, with a separate provider entry and the Agency icon. Existing Copilot agents are not changed.
+Run Agency-managed GitHub Copilot inside Paseo, with a separate provider entry. Existing Copilot agents are not changed.
 
 Agency must already be installed and authenticated on the daemon host. Requires Paseo daemon and app 0.17.4 or later. Open the plugin settings to choose the executable, existing Agency profiles, and additional MCP servers. Default MCPs, configured plugins, and organization configuration can be enabled or disabled separately.
 

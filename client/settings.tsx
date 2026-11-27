@@ -3,7 +3,7 @@ import { Pressable, Text, TextInput, View } from "react-native";
 import { usePaseo, useSettings, type PluginSurfaceProps } from "@getpaseo/plugin/client";
 import { Icon, SettingsCard, SettingsSection, SettingsSwitch } from "@getpaseo/plugin/client/ui";
 import { agencySettings, parseSettingsForm, type AgencySettings } from "../shared/settings.ts";
-import agencyLogo from "./agency.svg";
+import wrapperIcon from "./wrapper.svg";
 
 const formFor = (values: AgencySettings) => ({
   ...values,
@@ -96,7 +96,7 @@ export function AgencySettingsScreen({ theme, layout }: PluginSurfaceProps) {
   return (
     <View style={{ gap: 20, backgroundColor: colors.surface0 }}>
       <View style={{ flexDirection: "row", alignItems: "center", gap: 12 }}>
-        <Icon icon={{ svg: agencyLogo }} size={40} color={colors.foreground} />
+        <Icon icon={{ svg: wrapperIcon }} size={40} color={colors.foreground} />
         <Text accessibilityRole="header" style={{ color: colors.foreground,
           fontSize: layout.compact ? 22 : 26, fontWeight: "600" }}>Agency</Text>
       </View>

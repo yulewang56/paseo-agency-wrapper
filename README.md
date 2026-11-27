@@ -1,6 +1,6 @@
 # Agency Wrapper for Paseo
 
-<img src="assets/icon.png" alt="Agency logo" width="48">
+<img src="assets/icon.png" alt="Agency Wrapper plugin icon" width="48">
 
 Adds **Agency Copilot** as a separate provider. It runs `agency copilot --acp` without changing Paseo's built-in Copilot provider. Agency Claude is not supported yet.
 
@@ -24,4 +24,8 @@ Agency may download its managed CLI and load configured plugins, MCP servers, an
 
 For troubleshooting, run `paseo provider diagnostic agency-copilot` or `paseo plugin logs agency-wrapper`.
 
-The plugin code is [MIT licensed](LICENSE). Agency and GitHub branding belong to their respective owners and are not covered by this license. This is an unofficial plugin.
+## License and assets
+
+The plugin code, documentation, and original icons ([settings SVG](client/wrapper.svg), [provider SVG](assets/provider.svg), and [PNG](assets/icon.png)) are licensed under [Apache-2.0](LICENSE).
+
+Agency, GitHub Copilot, and Paseo are named only to identify compatible products. This unofficial plugin does not bundle their logos or grant rights to their trademarks.
